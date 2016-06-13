@@ -1,0 +1,6 @@
+{
+  "name": "Aspxsimplechart",
+  "tagline": "ASP .Net ASPX CHART SIMPLE",
+  "body": "# AspxSimpleChart\r\n\r\n\r\nthis is a sample of charting in aspx\r\n\r\n### 1.Create A database (in this Example CountryByGdp) in SQL SERVER\r\n### 2.crerate a table for example\r\n\r\n`CREATE TABLE [dbo].[cgdp] (`]\r\n\r\n `   [Id]      INT          IDENTITY (1, 1) NOT NULL`\r\n\r\n`    [country] VARCHAR (50) NOT NULL,`\r\n\r\n`   [code]    VARCHAR (3)  NULL,`\r\n\r\n`    [gdp]     INT          DEFAULT ((0)) NOT NULL,`\r\n\r\n`    PRIMARY KEY CLUSTERED ([Id] ASC)  );`\r\n\r\n\r\n### 3. in web.config edit data source:\r\n \r\n`\\<connectionStrings \\>`\r\n \r\n   ` <add name=\"countryByGdpConnectionString\" connectionString=\"Data Source=(localdb)\\ProjectsV13;Initial Catalog=countryByGdp;Integrated Security=True\"  providerName=\"System.Data.SqlClient\" />`\r\n \r\n` \\</connectionStrings \\>`\r\n\r\n  \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
