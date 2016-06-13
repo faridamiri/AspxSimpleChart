@@ -1,9 +1,9 @@
-# AspxSimpleChart
+# Aspx Simple Charting 
+make a simple chart in Asp is so easy 
+##this is a sample charting in aspx 
 
-this is a sample of charting in aspx
-
-Create A database (in this Example CountryByGdp)
-and crerate a table for example
+###1-Create A database (in this Example CountryByGdp) in SQL SERVER
+###2- crerate a table for example as below:
 
 `CREATE TABLE [dbo].[cgdp] `
 
@@ -17,7 +17,7 @@ and crerate a table for example
     
 `   PRIMARY KEY CLUSTERED ([Id] ASC));`
 
-then in web.config edit data source:
+###3. in the web.config edit data source:
  
 `<connectionStrings \>`
  
